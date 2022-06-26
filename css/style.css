@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1,
+h2 {
+  color: gainsboro;
+}
+
+.input,
+.btn,
+.gallery {
+  padding: 5px;
+}
+
+.btn,
+.gallery {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.task,
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.task__item {
+  flex: 1;
+}
+
+.gallery,
+.gallery__items {
+  border: 0px;
+  border-radius: 5px;
+}
+
+.gallery__items {
+  min-width: 200px;
+  flex: 1;
+}
+
+.gallery--error {
+  color: salmon;
+}
